@@ -36,7 +36,7 @@ The Real-Time Data Processing System is designed to monitor weather conditions i
 
 #### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/ishikasinghac/ZeotapWeatherMonitoringApp.git
 cd your-repo-name
 ```
 #### Step 2: Setting up environment
@@ -57,25 +57,25 @@ BACKEND_PORT=8080
 #### Step 3: Install Dependencies
 ##### Frontend
 ```bash
-cd frontend
+cd weather-web-portal
 npm install
 ```
 ##### Backend
 ```bash
-cd backend
+cd weather-data-service
 ./mvnw clean install
 ```
 #### Step 4: Run Application
 
 ##### Frontend
 ```bash
-cd frontend
+cd weather-web-portal
 npm run dev
 ```
 
 ##### Backend
 ```bash
-cd backend
+cd weather-data-service
 ./mvnw spring-boot: run
 ```
 
